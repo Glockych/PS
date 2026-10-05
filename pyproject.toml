@@ -1,14 +1,15 @@
 [project]
 name = "ps"
 version = "0.1.0"
-description = ""
+description = "Project System"
 authors = [
     {name = "Your Name",email = "you@example.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
-    "fastapi[all] (>=0.141.1,<0.142.0)"
+    "fastapi (>=0.142.2,<0.143.0)",
+    "uvicorn (>=0.54.0,<0.55.0)"
 ]
 
 
